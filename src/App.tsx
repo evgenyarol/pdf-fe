@@ -69,11 +69,11 @@ function App() {
         </Form.Item>
 
         <Form.Item name="birthday">
-          <Input placeholder="Дата Рождения" />
+          <Input placeholder="Дата Рождения: DD.MM.YYYY" />
         </Form.Item>
 
         <Form.Item name="placeBirth">
-          <Input placeholder="Место Рожденияh" />
+          <Input placeholder="Место Рождения" />
         </Form.Item>
 
         <Form.Item name="issueDate">
@@ -85,11 +85,11 @@ function App() {
         </Form.Item>
 
         <Form.Item name="startDate">
-          <Input placeholder="Срок регистрации с DD.MM.YYYY" />
+          <Input placeholder="Срок регистрации с: DD.MM.YYYY" />
         </Form.Item>
 
         <Form.Item name="stopDate">
-          <Input placeholder="Срок регистрации по DD.MM.YYYY" />
+          <Input placeholder="Срок регистрации по: DD.MM.YYYY" />
         </Form.Item>
 
         <Button type="primary" htmlType="submit">
