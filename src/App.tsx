@@ -44,12 +44,12 @@ function App() {
   return (
     <div className="container">
       <Form name="form1" onFinish={on1FormFinish} className="column">
-        <Form.Item name="firstName">
-          <Input placeholder="Имя" />
-        </Form.Item>
-
         <Form.Item name="lastName">
           <Input placeholder="Фамилия" />
+        </Form.Item>
+
+        <Form.Item name="firstName">
+          <Input placeholder="Имя" />
         </Form.Item>
 
         <Form.Item name="middleName">
