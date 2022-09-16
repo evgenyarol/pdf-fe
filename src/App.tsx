@@ -65,7 +65,7 @@ function App() {
         </Form.Item>
 
         <Form.Item name="gender">
-          <Input placeholder="Пол: M \ Ж" />
+          <Input placeholder="Пол" />
         </Form.Item>
 
         <Form.Item name="birthday">
