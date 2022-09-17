@@ -44,51 +44,51 @@ function App() {
   return (
     <div className="container">
       <Form name="form1" onFinish={on1FormFinish} className="column">
-        <Form.Item name="lastName">
+        <Form.Item name="lastName" label="Фамилия">
           <Input placeholder="Фамилия" />
         </Form.Item>
 
-        <Form.Item name="firstName">
+        <Form.Item name="firstName" label="Имя">
           <Input placeholder="Имя" />
         </Form.Item>
 
-        <Form.Item name="middleName">
+        <Form.Item name="middleName" label="Отчество">
           <Input placeholder="Отчество" />
         </Form.Item>
 
-        <Form.Item name="documetSeries">
+        <Form.Item name="documetSeries" label="Серия Паспорта">
           <Input placeholder="Серия Паспорта" />
         </Form.Item>
 
-        <Form.Item name="documentType">
+        <Form.Item name="documentType" label="Тип документа">
           <Input placeholder="Тип документа" />
         </Form.Item>
 
-        <Form.Item name="gender">
+        <Form.Item name="gender" label="Пол">
           <Input placeholder="Пол" />
         </Form.Item>
 
-        <Form.Item name="birthday">
+        <Form.Item name="birthday" label="Дата Рождения: DD.MM.YYYY">
           <Input placeholder="Дата Рождения: DD.MM.YYYY" />
         </Form.Item>
 
-        <Form.Item name="placeBirth">
+        <Form.Item name="placeBirth" label="Место Рождения">
           <Input placeholder="Место Рождения" />
         </Form.Item>
 
-        <Form.Item name="issueDate">
+        <Form.Item name="issueDate" label="Дата выдачи">
           <Input placeholder="Дата выдачи" />
         </Form.Item>
 
-        <Form.Item name="address">
+        <Form.Item name="address" label="Адрес">
           <Input placeholder="Адрес" />
         </Form.Item>
 
-        <Form.Item name="startDate">
+        <Form.Item name="startDate" label="Срок регистрации с: DD.MM.YYYY">
           <Input placeholder="Срок регистрации с: DD.MM.YYYY" />
         </Form.Item>
 
-        <Form.Item name="stopDate">
+        <Form.Item name="stopDate" label="Срок регистрации по: DD.MM.YYYY">
           <Input placeholder="Срок регистрации по: DD.MM.YYYY" />
         </Form.Item>
 
@@ -98,83 +98,86 @@ function App() {
       </Form>
 
       <Form name="form2" onFinish={on2FormFinish} className="column">
-        <Form.Item name="lastName">
+        <Form.Item name="lastName" label="Фамилия">
           <Input placeholder="Фамилия" />
         </Form.Item>
 
-        <Form.Item name="firstName">
+        <Form.Item name="firstName" label="Имя">
           <Input placeholder="Имя" />
         </Form.Item>
 
-        <Form.Item name="middleName">
+        <Form.Item name="middleName" label="Отчество">
           <Input placeholder="Отчество" />
         </Form.Item>
 
-        <Form.Item name="countryOfBirth">
+        <Form.Item name="countryOfBirth" label="Гражданство">
           <Input placeholder="Гражданство" />
         </Form.Item>
 
-        <Form.Item name="birthday">
+        <Form.Item name="birthday" label="Дата Рождения: DD.MM.YYYY">
           <Input placeholder="Дата Рождения: DD.MM.YYYY" />
         </Form.Item>
 
-        <Form.Item name="documentType">
+        <Form.Item name="documentType" label="Тип документа">
           <Input placeholder="Тип документа" />
         </Form.Item>
 
-        <Form.Item name="documetSeries">
+        <Form.Item name="documetSeries" label="Серия документа">
           <Input placeholder="Серия документа" />
         </Form.Item>
 
-        <Form.Item name="documetNumber">
+        <Form.Item name="documetNumber" label="Номер документа">
           <Input placeholder="Номер документа" />
         </Form.Item>
 
-        <Form.Item name="documentIssueDate">
+        <Form.Item name="documentIssueDate" label="Дата выдачи: DD.MM.YYYY">
           <Input placeholder="Дата выдачи: DD.MM.YYYY" />
         </Form.Item>
 
-        <Form.Item name="documentExpireDate">
+        <Form.Item name="documentExpireDate" label="Срок действия: DD.MM.YYYY">
           <Input placeholder="Срок действия: DD.MM.YYYY" />
         </Form.Item>
 
-        <Form.Item name="placeOfResidence">
+        <Form.Item name="placeOfResidence" label="Область, край, ресублика">
           <Input placeholder="Область, край, ресублика" />
         </Form.Item>
 
-        <Form.Item name="area">
+        <Form.Item name="area" label="Район">
           <Input placeholder="Район" />
         </Form.Item>
 
-        <Form.Item name="cityName">
+        <Form.Item name="cityName" label="Город">
           <Input placeholder="Город" />
         </Form.Item>
 
-        <Form.Item name="houseNumber">
+        <Form.Item name="houseNumber" label="Дом">
           <Input placeholder="Дом" />
         </Form.Item>
 
-        <Form.Item name="apartmentNumber">
+        <Form.Item name="apartmentNumber" label="Квартира">
           <Input placeholder="Квартира" />
         </Form.Item>
 
-        <Form.Item name="stayDate">
+        <Form.Item
+          name="stayDate"
+          label="Заявленный срок пребывания: DD.MM.YYYY"
+        >
           <Input placeholder="Заявленный срок пребывания: DD.MM.YYYY" />
         </Form.Item>
 
-        <Form.Item name="ownerLastName">
+        <Form.Item name="ownerLastName" label="Фамилия принимающей стороны">
           <Input placeholder="Фамилия принимающей стороны" />
         </Form.Item>
 
-        <Form.Item name="ownerFirstName">
+        <Form.Item name="ownerFirstName" label="Имя принимающей стороны">
           <Input placeholder="Имя принимающей стороны" />
         </Form.Item>
 
-        <Form.Item name="ownerMiddleName">
+        <Form.Item name="ownerMiddleName" label="Отчество принимающей стороны">
           <Input placeholder="Отчество принимающей стороны" />
         </Form.Item>
 
-        <Form.Item name="gender">
+        <Form.Item name="gender" label="Пол: M \ Ж">
           <Input placeholder="Пол: M \ Ж" />
         </Form.Item>
 
