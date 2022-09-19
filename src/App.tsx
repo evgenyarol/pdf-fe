@@ -56,7 +56,19 @@ function App() {
           <Input placeholder="Отчество" />
         </Form.Item>
 
-        <Form.Item name="documetSeries" label="Серия Паспорта">
+        <Form.Item name="latLastName" label="Фамилия (лат.)">
+          <Input placeholder="Фамилия (лат.)" />
+        </Form.Item>
+
+        <Form.Item name="latFirstName" label="Имя (лат.)">
+          <Input placeholder="Имя (лат.)" />
+        </Form.Item>
+
+        <Form.Item name="latMiddleName" label="Отчество (лат.)">
+          <Input placeholder="Отчество (лат.)" />
+        </Form.Item>
+
+        <Form.Item name="documentSeries" label="Серия Паспорта">
           <Input placeholder="Серия Паспорта" />
         </Form.Item>
 
@@ -68,15 +80,15 @@ function App() {
           <Input placeholder="Пол" />
         </Form.Item>
 
-        <Form.Item name="birthday" label="Дата Рождения: DD.MM.YYYY">
-          <Input placeholder="Дата Рождения: DD.MM.YYYY" />
+        <Form.Item name="birthday" label="Дата Рождения">
+          <Input placeholder="DD.MM.YYYY" />
         </Form.Item>
 
         <Form.Item name="placeBirth" label="Место Рождения">
           <Input placeholder="Место Рождения" />
         </Form.Item>
 
-        <Form.Item name="issueDate" label="Дата выдачи">
+        <Form.Item name="documentIssueDate" label="Дата выдачи">
           <Input placeholder="Дата выдачи" />
         </Form.Item>
 
@@ -84,12 +96,12 @@ function App() {
           <Input placeholder="Адрес" />
         </Form.Item>
 
-        <Form.Item name="startDate" label="Срок регистрации с: DD.MM.YYYY">
-          <Input placeholder="Срок регистрации с: DD.MM.YYYY" />
+        <Form.Item name="startDate" label="Срок регистрации с">
+          <Input placeholder="DD.MM.YYYY" />
         </Form.Item>
 
-        <Form.Item name="stopDate" label="Срок регистрации по: DD.MM.YYYY">
-          <Input placeholder="Срок регистрации по: DD.MM.YYYY" />
+        <Form.Item name="stopDate" label="Срок регистрации по">
+          <Input placeholder="DD.MM.YYYY" />
         </Form.Item>
 
         <Button type="primary" htmlType="submit">
@@ -114,8 +126,8 @@ function App() {
           <Input placeholder="Гражданство" />
         </Form.Item>
 
-        <Form.Item name="birthday" label="Дата Рождения: DD.MM.YYYY">
-          <Input placeholder="Дата Рождения: DD.MM.YYYY" />
+        <Form.Item name="birthday" label="Дата Рождения">
+          <Input placeholder="DD.MM.YYYY" />
         </Form.Item>
 
         <Form.Item name="documentType" label="Тип документа">
@@ -130,12 +142,12 @@ function App() {
           <Input placeholder="Номер документа" />
         </Form.Item>
 
-        <Form.Item name="documentIssueDate" label="Дата выдачи: DD.MM.YYYY">
-          <Input placeholder="Дата выдачи: DD.MM.YYYY" />
+        <Form.Item name="documentIssueDate" label="Дата выдачи">
+          <Input placeholder="DD.MM.YYYY" />
         </Form.Item>
 
-        <Form.Item name="documentExpireDate" label="Срок действия: DD.MM.YYYY">
-          <Input placeholder="Срок действия: DD.MM.YYYY" />
+        <Form.Item name="documentExpireDate" label="Срок действия">
+          <Input placeholder="DD.MM.YYYY" />
         </Form.Item>
 
         <Form.Item name="placeOfResidence" label="Область, край, ресублика">
@@ -171,11 +183,11 @@ function App() {
         </Form.Item>
 
         <Form.Item name="stayDate" label="Заявленный срок пребывания">
-          <Input placeholder="Заявленный срок пребывания" />
+          <Input placeholder="DD.MM.YYYY" />
         </Form.Item>
 
         <Form.Item name="ownerLastName" label="Фамилия принимающей стороны">
-          <Input placeholder="Фамилия принимающей стороны" />
+          <Input placeholder="DD.MM.YYYY" />
         </Form.Item>
 
         <Form.Item name="ownerFirstName" label="Имя принимающей стороны">
