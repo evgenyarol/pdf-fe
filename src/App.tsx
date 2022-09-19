@@ -150,6 +150,10 @@ function App() {
           <Input placeholder="Город" />
         </Form.Item>
 
+        <Form.Item name="street" label="Улица">
+          <Input placeholder="Улица" />
+        </Form.Item>
+
         <Form.Item name="houseNumber" label="Дом">
           <Input placeholder="Дом" />
         </Form.Item>
@@ -158,11 +162,16 @@ function App() {
           <Input placeholder="Квартира" />
         </Form.Item>
 
-        <Form.Item
-          name="stayDate"
-          label="Заявленный срок пребывания: DD.MM.YYYY"
-        >
-          <Input placeholder="Заявленный срок пребывания: DD.MM.YYYY" />
+        <Form.Item name="hullNumber" label="Корпус">
+          <Input placeholder="Корпус" />
+        </Form.Item>
+
+        <Form.Item name="buildingNumber" label="Строение">
+          <Input placeholder="Строение" />
+        </Form.Item>
+
+        <Form.Item name="stayDate" label="Заявленный срок пребывания">
+          <Input placeholder="Заявленный срок пребывания" />
         </Form.Item>
 
         <Form.Item name="ownerLastName" label="Фамилия принимающей стороны">
