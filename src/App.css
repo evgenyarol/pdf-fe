@@ -1,0 +1,17 @@
+.container {
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  gap: 25vw;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ant-form-item {
+  margin-bottom: 0 !important;
+  width: 20vw;
+}
