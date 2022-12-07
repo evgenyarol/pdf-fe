@@ -7,7 +7,7 @@ function App() {
   const on1FormFinish = async (formData: any) => {
     console.log(formData.wordDocument);
     if (formData.wordDocument === true) {
-      await fetch("http://localhost:3001/pdf", {
+      await fetch("http://185.91.52.243:3001/pdf", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -30,7 +30,7 @@ function App() {
         middleName: formData.middleName,
         documentSeries: formData.documentSeries,
       };
-      await fetch("http://localhost:3001/pdf/docx", {
+      await fetch("http://185.91.52.243:3001/pdf/docx", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -47,7 +47,7 @@ function App() {
           alink.click();
         });
     } else {
-      await fetch("http://localhost:3001/pdf", {
+      await fetch("http://185.91.52.243:3001/pdf", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
